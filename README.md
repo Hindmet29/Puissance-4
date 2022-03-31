@@ -6,5 +6,5 @@ Si la grille se remplit et que personne n'a réussi à aligner 4 jets alors il y
 -Tour d’abord on demande au joueur à tour de rôle dans quelle colonne ils veulent  jouer 
 -On va faire une fonction qui détecte une colonne pleine et la grille pleine 
 -Une fonction qui renvoie une grille  et une fonction qui affiche la grille du jeu par interface graphique 
-- une fonction détecte 4 pions alignés verticalement, détecte 4 pions  alignés horizontalement, détecte 4 pions  alignés en diagonale.
+-une fonction détecte 4 pions alignés verticalement, détecte 4 pions  alignés horizontalement, détecte 4 pions  alignés en diagonale.
 
