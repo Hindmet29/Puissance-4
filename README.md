@@ -16,7 +16,7 @@ Si la grille se remplit et que personne n'a réussi à aligner 4 jetons alors il
 
 -On va faire une fonction qui détecte une colonne pleine et la grille pleine afin de deposer le jetons ( poser_pièce () )
 
--Une fonction qui renvoie une grille  et une fonction qui affiche la grille du jeu par interface graphique 
+-Une fonction qui renvoie une grille ( grille () ) et une fonction qui affiche la grille du jeu par interface graphique ( affiche_grille () )
 
 -une fonction qui cherche 4 pions alignés verticalement, cherche 4 pions  alignés horizontalement, cherche 4 pions  alignés en diagonale afin de detérminer le gagant  ( est_gagant() )
 
