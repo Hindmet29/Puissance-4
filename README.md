@@ -12,9 +12,9 @@ Si la grille se remplit et que personne n'a réussi à aligner 4 jetons alors il
    1= joueur 1 
    2= joueur 2
 
--Tour d’abord on demande aux joueurs à tour de rôle dans quelles colonnes ils veulent  jouer ( demande_colonne () )
+-Tour d’abord on demande aux joueurs à tour de rôle dans quelles colonnes ils veulent  jouer ( demande_colonne() )
 
--On va faire une fonction qui détecte une colonne pleine et la grille pleine afin de deposer le jetons ( poser_pièce () )
+-On va faire une fonction qui détecte une colonne pleine et la grille pleine afin de deposer le jetons ( poser_jetons() )
 
 -Une fonction qui renvoie une grille ( grille () ) et une fonction qui affiche la grille du jeu par interface graphique ( affiche_grille () )
 
