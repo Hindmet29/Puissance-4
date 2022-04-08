@@ -1,0 +1,26 @@
+import random 
+
+
+
+#Structure de donnée mémorisant la grille : une liste à 2 dimensions (6 lignes et 7 colonnes) contenant
+#0= colone vide, 1= jeton joueur1 , 2 = jeton joueur2                                                                                                                                                                                                                            
+
+
+
+tab=[[0,0,0,0,0,0,0],
+     [0,0,0,0,0,0,0],
+     [0,0,0,0,0,0,0],
+     [0,0,0,0,0,0,0],
+     [0,0,0,0,0,0,0],
+     [0,1,2,0,0,0,0]]
+
+def création_joueur ():
+    joueur1=input("joueur1,entrez votre prénom:")
+    joueur2=input("joueur2, entrez votre prénom:")
+    return joueur1, joueur2
+
+def demande_colonne () -> bool:
+    
+def poser_jetons (création_joueur ,tab ,demande_colonne )-> tab :
+
+def est_gagnant (tab) -> 0,1,2 :
