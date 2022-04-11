@@ -22,7 +22,7 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 - Une fonction qui renvoie une grille ( Grille () ) et une fonction qui affiche la grille du jeu par interface graphique ( Affiche_grille () )
 
-- des fonction qui cherche 4 pions alignés verticalement, cherche 4 pions alignés horizontalement, cherche 4 pions alignés en diagonale 
+- des fonction qui cherche 4 pions alignés verticalement, cherche 4 pions alignés horizontalement, cherche 4 pions alignés en diagonale : vérifie_horizontalemen() ,vérifie_verticalement(),vérifie_diagonalement():
 
 - une fonction afin de déterminer le gagnant ( Est_gagndant () )
 
