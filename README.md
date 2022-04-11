@@ -14,7 +14,7 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 
 
-- SDD : 0 = colonne vide  1= joueur 1 2= joueur 2
+-SDD : 0 = colonne vide  1= joueur 1 2= joueur 2
 ## Decomposition en sous-problèmes
 -Tour d’abord, on demande aux joueurs à tour de rôle dans quelles colonnes, ils veulent jouer ( Demande_colonne () )
 
@@ -28,8 +28,8 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 ## MVP
 
--En premier temps je vais faire un programme afin qu'il fonctionne dans la console  
+- En premier temps je vais faire un programme afin qu'il fonctionne dans la console  
 
--En deuxième réaliser une interface graphique 
+- En deuxième réaliser une interface graphique 
 
 
