@@ -16,7 +16,7 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 -SDD : 0 = colonne vide  1= joueur 1 2= joueur 2
 ## Decomposition en sous-problèmes
--Tour d’abord, on demande aux joueurs à tour de rôle dans quelles colonnes, ils veulent jouer ( Demande_colonne () )
+- Tour d’abord, on demande aux joueurs à tour de rôle dans quelles colonnes, ils veulent jouer ( Demande_colonne () )
 
 - On va faire une fonction qui détecte une colonne pleine et la grille pleine afin de déposer le jeton ( Poser_jetons () )
 
