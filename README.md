@@ -22,10 +22,14 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 -Une fonction qui renvoie une grille ( Grille () ) et une fonction qui affiche la grille du jeu par interface graphique ( Affiche_grille () )
 
--une fonction qui cherche 4 pions alignés verticalement, cherche 4 pions alignés horizontalement, cherche 4 pions alignés en diagonale afin de déterminer le gagnant ( Est_gagndant () )
+-des fonction qui cherche 4 pions alignés verticalement, cherche 4 pions alignés horizontalement, cherche 4 pions alignés en diagonale 
+
+-une fonction afin de déterminer le gagnant ( Est_gagndant () )
 
 ## MVP
 
--En premier temps je vais faire un programme afin qu'il fonctionne dans la console 
+-En premier temps je vais faire un programme afin qu'il fonctionne dans la console  
+
 -En deuxième réaliser une interface graphique 
--En troisième 
+
+
