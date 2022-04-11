@@ -15,7 +15,7 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 
 - SDD : 0 = colonne vide  1= joueur 1 2= joueur 2
-##Decomposition en sous-problèmes
+## Decomposition en sous-problèmes
 -Tour d’abord, on demande aux joueurs à tour de rôle dans quelles colonnes, ils veulent jouer ( Demande_colonne () )
 
 -On va faire une fonction qui détecte une colonne pleine et la grille pleine afin de déposer le jeton ( Poser_jetons () )
@@ -24,5 +24,5 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 -une fonction qui cherche 4 pions alignés verticalement, cherche 4 pions alignés horizontalement, cherche 4 pions alignés en diagonale afin de déterminer le gagnant ( Est_gagndant () )
 
-##MVP
+## MVP
 
