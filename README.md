@@ -26,3 +26,4 @@ Je vais utiliser un tableau (liste de liste) pour modéliser ma grille.
 
 ## MVP
 
+-En premier temps je vais faire un programme pour 
