@@ -8,6 +8,9 @@ class game:
     
     def __init__(self) :# Création de la grille de jeu
         self.grille [["0"] * 7 for i in range (6)]
+    
+    def methode1 (self):
+        self.grille[i][j]=2
         
     def poser_jeton(self, joueur, colone):
         for ligne in range(7):
@@ -16,9 +19,7 @@ class game:
                     self.grille[colone][ligne] = joueur
                     break
  
-    
-    def methode1 (self):
-        self.grille[i][j]=2
+
         
     def est_gagant (self)->int:
         trouve=0
