@@ -21,10 +21,10 @@ class game:
  
 
         
-    def est_gagant (self)->int:
+    def est_gagnant (self)->int:
         trouve=0
         
-    def est_gagant_vert(self)-> int :
+    def est_gagnant_vert(self)-> int :
         for ligne in self.grille:
             joueur =0
             repetition=0
@@ -35,9 +35,9 @@ class game:
                     joueur =ligne (1)
                     repetition =  0 
     
-    def est_gagant_horiz(self)-> int :
+    def est_gagnant_horiz(self)-> int :
      
-    def est_gagant_diag(self)-> int :
+    def est_gagnant_diag(self)-> int :
 
 
 
