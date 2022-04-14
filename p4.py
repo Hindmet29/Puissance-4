@@ -6,7 +6,7 @@ class Game:
         self.joueur2 = input("J2, entrez votre prénom :")
 
         
-    def poser_jeton(self, joueur, colone):
+    def poser_jeton(self, joueur, colonne):
         for ligne in range(7):
             if "0" in self.grille[colone]:
                 if self.grille[colone][ligne] == "0":
@@ -30,7 +30,24 @@ class Game:
                     return joueur
     
     def est_gagnant_vert(self)-> int :
-        return None
+        for colonne in self.grille :
+            joueur = 0
+            repetition = 0
+            for ligne in range(6):
+                if colonne[ligne] == joueur and colonne[ligne] != 0 :
+                    repetition += 1
+                    if joueur1 >= 4:
+                        trouve = 1
+                        return trouve
+                elif grille[ligne][colonne] == 2:
+                    joueur1 = 0
+                    Joueur2 += 1
+                    if joueur2 >= 4:
+                        trouve = 2
+                        return trouve
+                else:
+                    joueur1=0
+                    Joueur2=0
      
     def est_gagnant_diag(self)-> int :
         return None
@@ -40,3 +57,4 @@ print(jeu.grille)
 jeu.grille[5] = [1,1,2,2,2,2,1]
 print(jeu.grille)
 print(jeu.est_gagnant_horiz())
+        
