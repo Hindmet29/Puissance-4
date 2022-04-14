@@ -39,7 +39,7 @@ class Game:
                     if joueur1 >= 4:
                         trouve = 1
                         return trouve
-                elif grille[ligne][colonne] == 2:
+                elif self.grille [ligne][colonne] == 2:
                     joueur1 = 0
                     Joueur2 += 1
                     if joueur2 >= 4:
@@ -57,4 +57,15 @@ print(jeu.grille)
 jeu.grille[5] = [1,1,2,2,2,2,1]
 print(jeu.grille)
 print(jeu.est_gagnant_horiz())
-        
+jeu= Game()
+print(jeu.grille)
+jeu.grille[6] = [[0,0,0,0,0,0,0],
+                 [0,0,0,0,0,0,0],
+                 [0,0,0,0,0,0,1],
+                 [0,0,0,0,0,0,1],
+                 [0,0,0,0,0,0,1],
+                 [1,1,2,2,2,0,1],]
+                 
+
+print(jeu.grille)
+print(jeu.est_gagnant_vert())
