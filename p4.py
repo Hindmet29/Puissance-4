@@ -30,42 +30,39 @@ class Game:
                     return joueur
     
     def est_gagnant_vert(self)-> int :
-        for colonne in self.grille :
+        for c in range (len(self.grille[0])) :
             joueur = 0
             repetition = 0
-            for ligne in range(6):
-                if colonne[ligne] == joueur and colonne[ligne] != 0 :
+            for l in range(len(self.grille)):
+                if self.grille [l][c] == joueur and self.grille [l][c] != 0 :
                     repetition += 1
-                    if joueur1 >= 4:
-                        trouve = 1
-                        return trouve
-                elif self.grille [ligne][colonne] == 2:
-                    joueur1 = 0
-                    Joueur2 += 1
-                    if joueur2 >= 4:
-                        trouve = 2
-                        return trouve
-                else:
-                    joueur1=0
-                    Joueur2=0
-     
+                else :
+                    joueur = self.grille [l][c]
+                    repetition =  0
+                if repetition == 3:
+                    return joueur
+                    
+                    
     def est_gagnant_diag(self)-> int :
         return None
-
+"""
 jeu= Game()
 print(jeu.grille)
 jeu.grille[5] = [1,1,2,2,2,2,1]
 print(jeu.grille)
 print(jeu.est_gagnant_horiz())
+
+"""
 jeu= Game()
 print(jeu.grille)
-jeu.grille[6] = [[0,0,0,0,0,0,0],
-                 [0,0,0,0,0,0,0],
-                 [0,0,0,0,0,0,1],
-                 [0,0,0,0,0,0,1],
-                 [0,0,0,0,0,0,1],
-                 [1,1,2,2,2,0,1],]
+jeu.grille[6][5] =  [[0,0,0,0,0,0,0],
+                     [0,0,0,0,0,0,0],
+                     [0,0,0,0,0,0,1],
+                     [0,0,0,0,0,0,1],
+                     [0,0,0,0,0,0,1],
+                     [1,1,2,2,2,0,1]]
                  
 
 print(jeu.grille)
 print(jeu.est_gagnant_vert())
+
