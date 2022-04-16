@@ -29,11 +29,24 @@
 
 -06/04:
 
-
 * Création du code -> __init__
 
 * Création du code -> poser_jeton()
 
+-10/04:
+
+* Modifications  -> poser_jetons()
 
 *  Création du code -> est_gagnant_horiz () 
-*  
+
+-13/04:
+
+* Modification  du Code -> est_gagnant_horiz
+
+-> Jeu de test pour cette fonction
+
+-14-15/04:
+
+* Création  du code -> est_gagnant_vert 
+
+-> Modification
