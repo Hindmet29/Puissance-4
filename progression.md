@@ -10,7 +10,12 @@
 
 -02/04:
 
-*  Création de fonctions 
+* Debut  Création de fonctions
+
+  poser_jeton ()
+  
+  est_gagnant ()
+  
 
 * Protypage des fonctions
 
