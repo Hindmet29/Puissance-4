@@ -29,4 +29,11 @@
 
 -06/04:
 
+
+* Création du code -> __init__
+
+* Création du code -> poser_jeton()
+
+
+*  Création du code -> est_gagnant_horiz () 
 *  
