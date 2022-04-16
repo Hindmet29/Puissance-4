@@ -1,6 +1,6 @@
 # Ma progression sur mon projet "Puissance 4"
 
--30/03:
+## 30/03:
 
 * Création repository dans le GIT
 
@@ -8,7 +8,7 @@
 
 * Présentation générale du projet dans README.txt : Première proposition de décomposition en sous-problèmes
 
--02/04:
+## 02/04:
 
 * Debut  Création de fonctions
 
@@ -27,25 +27,23 @@
 
 * Protypage des fonctions
 
--06/04:
+## 06/04-10/04:
 
 * Création du code -> __init__
 
 * Création du code -> poser_jeton()
 
--10/04:
-
 * Modifications  -> poser_jetons()
 
-*  Création du code -> est_gagnant_horiz () 
+## 11/04-13/04:
 
--13/04:
+*  Création du code -> est_gagnant_horiz () 
 
 * Modification  du Code -> est_gagnant_horiz
 
 -> Jeu de test pour cette fonction
 
--14-15/04:
+## 14-15/04:
 
 * Création  du code -> est_gagnant_vert 
 
