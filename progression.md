@@ -39,12 +39,16 @@
 
 *  Création du code -> est_gagnant_horiz () 
 
-* Modification  du Code -> est_gagnant_horiz
+* Modification  du Code -> est_gagnant_horiz()
 
 -> Jeu de test pour cette fonction
 
 ## 14-15/04:
 
-* Création  du code -> est_gagnant_vert 
+* Création  du code -> est_gagnant_vert ()
 
 -> Modification
+
+## 16/04 :
+
+* Création du code -> est_gagnant_diag()
