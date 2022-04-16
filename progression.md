@@ -12,11 +12,21 @@
 
 * Debut  Création de fonctions
 
+  __init__()
+
   poser_jeton ()
   
   est_gagnant ()
   
+  est_gagnant_horiz()
+  
+  est_gagnant_vert()
+  
+  est_gagnant_diag()
+    
 
 * Protypage des fonctions
 
-- :
+-06/04:
+
+*  
