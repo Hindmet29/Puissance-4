@@ -1,5 +1,4 @@
-
-clas Game:
+class Game:
     
     def __init__(self) :# Création de la grille de jeu
         self.grille = [[0] * 7 for i in range (6)]  
@@ -45,11 +44,29 @@ clas Game:
         return 0
                     
                     
-    def est_gagnant_diag(self)-> int :
-        """for d in self.grille  :
+    def est_gagnant_diag_SE(self)-> int:
+        nb_colonne=7
+        nb_ligne =6
+        i=0
+        for ligne[0] in  range (len(self.grille[0])) :
+            i+= 1
+            case = [ligne+1][1]
             joueur = 0
             repetition = 0
-            for """
+            for colonne [0] in range (len(self.grille[0])):
+                if self.grille [colonne[0]][ligne[0]]== joueur and self.grille [colonne[0]][ligne[0]] != 0 :
+                    repetition += 1
+                else :
+                    joueur = self.grille [colonne[0]][ligne[0]]
+                    repetition =  0
+            if repetition == 3:
+                return joueur
+        return 0
+                
+        
+    
+    def est_gagnant_diag_NE(self)-> int :
+        
         return None
 """
 jeu= Game()
@@ -57,16 +74,15 @@ print(jeu.grille)
 jeu.grille[5] = [1,1,2,2,2,2,1]
 print(jeu.grille)
 print(jeu.est_gagnant_horiz())
-
 """
-jeu= Game()
+"""jeu= Game()
 print(jeu.grille)
 jeu.grille = [[0,0,0,0,0,0,0],
               [0,0,0,0,0,0,0],
-                     [0,0,0,0,0,0,0],
-                     [0,0,0,0,0,0,1],
-                     [0,0,0,0,0,0,1],
-                     [1,1,2,2,2,0,1]]
+              [0,0,0,0,0,0,0],
+              [0,0,0,0,0,0,1],
+              [0,0,0,0,0,0,1],
+              [1,1,2,2,2,0,1]]
                  
 print(jeu.grille)
 print(jeu.est_gagnant_vert())
@@ -74,3 +90,19 @@ print(jeu.est_gagnant_vert())
 jeu.grille[2][6] = 1
 print(jeu.grille)
 print(jeu.est_gagnant_vert())
+"""
+jeu= Game()
+print(jeu.grille)
+jeu.grille = [[0,0,0,0,0,0,0],
+              [0,0,0,0,0,0,0],
+              [1,0,0,0,0,0,0],
+              [0,1,0,0,0,0,1],
+              [0,0,1,0,0,0,1],
+              [1,1,2,1,2,0,1]]
+                 
+print(jeu.grille)
+print(jeu.est_gagnant_diag_SE())
+
+jeu.grille[3][3] = 1
+print(jeu.grille)
+print(jeu.est_gagnant_diag_SE())
