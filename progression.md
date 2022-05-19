@@ -49,6 +49,6 @@
 
 -> Modification
 
-## 16/04 :
+##  19/05-20/05:
 
-* Création du code -> est_gagnant_diag()
+* Début CréatioDn du code -> est_gagnant_diag_SE()
